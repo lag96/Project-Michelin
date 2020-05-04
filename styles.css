@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+body {
+	background-image: url("frame1.jpg");
+	z-index: -1;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+
+h1 {
+	position: absolute;
+	color: white;
+	font-size: 3vw;
+	width: 52.45vw;
+	height: 7.59vh;
+	left: 23.75%;
+	top: 1.20%;
+}
+
+.map {
+	position: absolute;
+	box-sizing: border-box;
+	width: 36vw;
+	height: 56vh;
+	left: 55%;
+	top: 37%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.map #m {
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+	border-radius: 10px; 
+}
+
+.tabla {
+	position: absolute;
+	box-sizing: border-box;
+	width: 36vw;
+	height: 56vh;
+	left: 8%;
+	top: 37%;
+	margin: 0px;
+	padding: 0px;
+	color: black;
+
+}
+ .tabla #table {
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+	border-radius: 10px;
+	background-color: white;
+ }
+
+.slider {
+	position: absolute;
+	box-sizing: border-box;
+	width: 29vw;
+	height: 8vh;
+	left: 45%;
+	top: 23%;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+}
+
+.form-group {
+	box-sizing: border-box;
+}
+
+.controls {
+	position: absolute;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+	height: 9vh;
+	left: 0%;
+	top: 10%;
+	color: white;
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		position: absolute;
+		color: white;
+		font-size: 5.84vw;
+		width: 83.70vw;
+		height: 4.10vh;
+		left: 5.84%;
+		top: 3.28%;
+	}
+	
+	.map {
+		position: absolute;
+		box-sizing: border-box;
+		width: 93vw;
+		height: 36vh;
+		left: 3%;
+		top: 35%;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	.map #m {
+		box-sizing: border-box;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+		border-radius: 10px; 
+	}
+	
+	.tabla {
+		position: absolute;
+		box-sizing: border-box;
+		width: 93vw;
+		height: 29vh;
+		left: 3%;
+		top: 90%;
+		margin: 0px;
+		padding: 0px;
+		color: black;
+	
+	}
+	 .tabla #table {
+		box-sizing: border-box;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+		border-radius: 10px;
+		background-color: white;
+	 }
+	
+	.slider {
+		position: absolute;
+		box-sizing: border-box;
+		width: 100vw;
+		height: 7vh;
+		left: 15%;
+		top: 22%;
+		margin: 0px;
+		padding: 0px;
+		color: white;
+	}
+	
+	.form-group {
+		box-sizing: border-box;
+	}
+	
+	.controls {
+		position: absolute;
+		box-sizing: border-box;
+		margin: 0px;
+		padding: 0px;
+		width: 100vw;
+		height: 6.70vh;
+		left: 0%;
+		top: 10%;
+		color: white;
+	}
+}
